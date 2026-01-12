@@ -49,11 +49,6 @@ export default function ChatRoom() {
     e.preventDefault();
     if (!user) return;
 
-    if (!auth.currentUser) {
-      alert("User belum login");
-      return;
-    }
-
     if (!message.trim()) return;
 
 
